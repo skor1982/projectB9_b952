@@ -1,0 +1,5 @@
+#our context will be /srv, so exclude everything
+*
+#except few things...
+!app/web.py
+!app/conf/web.conf
